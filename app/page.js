@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 
 export default function Home() {
@@ -6,8 +7,8 @@ export default function Home() {
     <main className="bg-black text-gray-300 min-h-screen font-sans ">
       <div className="flex flex-cols-3 justify-center items-center bg-gray-300">
         <ul className="gap-6 flex text-gray-600">
-          <li className="cursor-pointer hover:text-blue-500">SHOES</li>
-          <li className="cursor-pointer hover:text-blue-500">CLOTHES</li>
+         <Link href="/dashboard/shoes"> <li className="cursor-pointer hover:text-blue-500">SHOES</li></Link>
+          <Link href="/dashboard/clothes"><li className="cursor-pointer hover:text-blue-500">CLOTHES</li></Link>
           <li className="cursor-pointer hover:text-blue-500">BAGS</li>
         </ul>
       </div>
@@ -24,9 +25,10 @@ export default function Home() {
           <marquee className="text-bold text-2xl" behaviour="" direction="bg-gray">welcome to polo boutique, home of luxuary. At affordable prices at your door step, we do delivery at home, offices,schools etc. At the best rate that no store can beat locations:Abuja,lagos,Enugu. you can visit us on www.polo boutique.com or contact us on mobile:whatsapp number:08100833816 Tel phone:08066273740 or 08030680976</marquee>
         </div>
       </div>
-      
+
         <h1 className="text-4xl text-bold text-white">SHOES</h1>
-        <div className="grid grid-cols-4 gap-10">
+      
+        <div className="grid grid-cols-1 mb-5 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:mb-10">
         <div>
         <Image
         src="/nike blue shoe.webp"
@@ -158,13 +160,14 @@ export default function Home() {
           <p className="text-gray-400 text-bold text-3xl">versace</p>
 
         </div>
+      
         
         
 
       </div>
       <h1 className="text-4xl text-gray-700 text-bold">clothes</h1>
 
-      <div className="grid grid-cols-4 gap-10">
+      <div className="grid grid-cols-1 mb-5 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:mb-10">
         <div className="">
           <Image
           src="/shirt 1.webp"

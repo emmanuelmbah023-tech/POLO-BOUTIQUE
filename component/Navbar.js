@@ -34,7 +34,7 @@ export function Navbar () {
                     <li>OrderList</li>
                  </ul>
                  <Link href="/auth/login"><button className="w-[60px] h-[30px] text-white bg-purple-500 rounded cursor-pointer">Login</button></Link>
-                 <CgProfile className="text-2xl cursor-pointer" />
+               <Link href="/dashboard/profile"> <CgProfile className="text-2xl cursor-pointer" /></Link>
 
             </div>
             )}

@@ -23,7 +23,8 @@ export default function Contactus () {
     };
     return(
         <main className="bg-gray-800 min-h-screen ">
-            <div className="profile-container flex gap-5 ">
+            
+            <div className="profile-container flex gap-5   ">
                 <Image 
                 src="/MBAH.jpg"
                 alt="my-image"
@@ -32,7 +33,7 @@ export default function Contactus () {
                 className="profile-image"
 
             />
-            <div className=" gap-[10px] profile-text">
+            <div className=" gap-[10px] profile-text container ">
                 <h2 className="text-2xl text-bold text-gray-200">About Us</h2>
                 <p>Mbah Paul  is the visionary leader behind polo boutique and store,driving innovation and growth in the clothing sector.
                       with over 20 years of experience and a proven track record of success, PAUL MBAH brings a unique blend of srategic vision, fashion expertise, 
@@ -57,8 +58,9 @@ export default function Contactus () {
                     )}
             
             </div>
- 
             </div>
+
+            
 
 
         </main>
