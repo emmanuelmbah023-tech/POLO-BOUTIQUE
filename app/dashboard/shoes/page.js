@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function shoes() {
     return(
-    <main>
+    <main className="bg-gray-700">
         <h1 className="text black text-2xl">SHOES</h1>
         <div className="grid grid-cols-1 mb-5 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:mb-10">
                 <div>

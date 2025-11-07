@@ -1,5 +1,8 @@
 import Image from "next/image"
 import Link from "next/link"
+import React from "react"
+
+
 
 
 export default function Home() {
@@ -25,240 +28,128 @@ export default function Home() {
           <marquee className="text-bold text-2xl" behaviour="" direction="bg-gray">welcome to polo boutique, home of luxuary. At affordable prices at your door step, we do delivery at home, offices,schools etc. At the best rate that no store can beat locations:Abuja,lagos,Enugu. you can visit us on www.polo boutique.com or contact us on mobile:whatsapp number:08100833816 Tel phone:08066273740 or 08030680976</marquee>
         </div>
       </div>
-
-        <h1 className="text-4xl text-bold text-white">SHOES</h1>
       
-        <div className="grid grid-cols-1 mb-5 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:mb-10">
-        <div>
+     <h1 className="text-gray-400 text-xl text-center hover:text-blue-300 cursor-pointer">view all our product</h1>
+     
+          <h1 className="text-2xl  text-bold">New arrivals</h1>
+          <div className="grid grid-cols-2 mb-5 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:mb-10">
+      
+
+
+      
+        
+          
+           <div className="">
+           <Image
+            src="/tiv.webp"
+             alt="my-icon"
+             width={300}
+              height={300}
+             className="w-[300] h-[300]"
+           />
+           <p className="text-gray-400 text-bold text-3xl">nike jordan</p>
+                        
+         </div>
+       <div className="gap-10">
+          <Image
+           src="/had.webp"
+           alt="my-icon"
+           width={300}
+           height={300}
+           className="w-[300] h-[300]"
+             />
+              <p className="text-gray-400 text-bold text-3xl">nike jordan</p>
+            
+           </div>
+           <div className="gap-10">
+          <Image
+           src="/ted.webp"
+           alt="my-icon"
+           width={300}
+           height={300}
+           className="w-[300] h-[300]"
+             />
+              <p className="text-gray-400 text-bold text-3xl">nike jordan</p>
+            
+           </div>
+           <div className="gap-10">
+          <Image
+           src="/keg 2.webp"
+           alt="my-icon"
+           width={300}
+           height={300}
+           className="w-[300] h-[300]"
+             />
+              <p className="text-gray-400 text-bold text-3xl">nike jordan</p>
+            
+           </div>
+           <div className="gap-10">
+          <Image
+           src="/cac.webp"
+           alt="my-icon"
+           width={300}
+           height={300}
+           className="w-[300] h-[300]"
+             />
+              <p className="text-gray-400 text-bold text-3xl">nike jordan</p>
+            
+           </div>
+           <div className="gap-10">
+          <Image
+           src="/fac.webp"
+           alt="my-icon"
+           width={300}
+           height={300}
+           className="w-[300] h-[300]"
+             />
+              <p className="text-gray-400 text-bold text-3xl">nike jordan</p>
+            
+           </div>
+           
+           <div className="gap-10">
+          <Image
+           src="/key.webp"
+           alt="my-icon"
+           width={300}
+           height={300}
+           className="w-[300] h-[300]"
+             />
+              <p className="text-gray-400 text-bold text-3xl">nike jordan</p>
+            
+           </div>
+           <div className="gap-10">
+          <Image
+           src="/lim.webp"
+           alt="my-icon"
+           width={300}
+           height={300}
+           className="w-[300] h-[300]"
+             />
+              <p className="text-gray-400 text-bold text-3xl">nike jordan</p>
+            
+           </div>
+          
+        
+            
+
+        
+
+        
+
+      </div>
+      <div>
         <Image
-        src="/nike blue shoe.webp"
+        src="/haf.jpg"
         alt="my-icon"
-        width={300}
-        height={300}
-        className="w-[300] h-[300]   "
+        width={500}
+        height={500}
+        className="w-full h-[500px] bg-blue-500  bg-no-repeat min-h-screen cursor-pointer"
         
         />
-        <p className="text-gray-400 text-bold text-3xl">nike air</p>
-        </div>
-        <div>
-          <Image
-          src="/dave.jpg"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300]"
-          />
-          <p className="text-gray-400 text-bold text-3xl">claks</p>
-        </div>
-        <div className="">
-          <Image
-          src="/shoes.webp"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300]"
-          />
-          <p className="text-gray-400 text-bold text-3xl">Berlin</p>
-        </div>
+        <h1>here</h1>
         
-        <div className="">
-          <Image
-          src="/nike canvas.jpg"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300]"
-          />
-          <p className="text-gray-400 text-bold text-3xl">nike snickers  </p>
-
-        </div>
-        <div className="">
-          <Image
-          src="/aunty.webp"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300]"
-          />
-          <p className="text-gray-400 text-bold text-3xl">nike </p>
-
-        </div>
-        <div className="">
-          <Image
-          src="/sunny.webp"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300]"
-          />
-          <p className="text-gray-400 text-bold text-3xl">aiforce 1</p>
-
-        </div>
-        <div className="">
-          <Image
-          src="/fire.webp"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300]"
-          />
-          <p className="text-gray-400 text-bold text-3xl">nike jordan</p>
-
-        </div>
-        <div className="">
-          <Image
-          src="/good.webp"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300]"
-          />
-          <p className="text-gray-400 text-bold text-3xl">  Naked wolf</p>
-
-        </div>
-        <div className="">
-          <Image
-          src="/jude.webp"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300]"
-          />
-          <p className="text-gray-400 text-bold text-3xl">  Naked wolf</p>
-
-        </div>
-        <div className="">
-          <Image
-          src="/kate.webp"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300]"
-          />
-          <p className="text-gray-400 text-bold text-3xl">versace</p>
-
-        </div>
-        <div className="">
-          <Image
-          src="/shoe 6.webp"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300]"
-          />
-          <p className="text-gray-400 text-bold text-3xl">versace</p>
-
-        </div>
-        <div className="">
-          <Image
-          src="/shoe 3.webp"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300]"
-          />
-          <p className="text-gray-400 text-bold text-3xl">versace</p>
-
         </div>
       
-        
-        
-
-      </div>
-      <h1 className="text-4xl text-gray-700 text-bold">clothes</h1>
-
-      <div className="grid grid-cols-1 mb-5 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:mb-10">
-        <div className="">
-          <Image
-          src="/shirt 1.webp"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300] hover:text-blue-300"
-          />
-          <p className="text-gray-400 text-bold text-3xl">nike jordan</p>
-
-        </div>
-        <div className="">
-          <Image
-          src="/shirt 4.webp"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300]"
-          />
-          <p className="text-gray-400 text-bold text-3xl">nike jordan</p>
-
-        </div>
-        <div className="">
-          <Image
-          src="/shirt 5.webp"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300]"
-          />
-          <p className="text-gray-400 text-bold text-3xl">nike jordan</p>
-
-        </div>
-        <div className="">
-          <Image
-          src="/shirt 6.webp"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300]"
-          />
-          <p className="text-gray-400 text-bold text-3xl">nike jordan</p>
-
-        </div>
-        <div className="">
-          <Image
-          src="/shirt 7.webp"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300]"
-          />
-          <p className="text-gray-400 text-bold text-3xl">nike jordan</p>
-
-        </div>
-        <div className="">
-          <Image
-          src="/shirt 8.webp"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300]"
-          />
-          <p className="text-gray-400 text-bold text-3xl">nike jordan</p>
-
-        </div>
-        <div className="">
-          <Image
-          src="/shirt 2.webp"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300]"
-          />
-          <p className="text-gray-400 text-bold text-3xl">nike jordan</p>
-
-        </div>
-        <div className="">
-          <Image
-          src="/shirt 3.webp"
-          alt="my-icon"
-          width={300}
-          height={300}
-          className="w-[300] h-[300]"
-          />
-          <p className="text-gray-400 text-bold text-3xl">nike jordan</p>
-
-        </div>
-  
-
-      </div>
       
       
     
