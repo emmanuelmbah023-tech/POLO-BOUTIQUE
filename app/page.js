@@ -29,9 +29,8 @@ export default function Home() {
         </div>
       </div>
       
-     <h1 className="text-gray-400 text-xl text-center hover:text-blue-300 cursor-pointer">view all our product</h1>
-     
-          <h1 className="text-2xl  text-bold">New arrivals</h1>
+    
+          <h1 className="text-2xl  text-bold text-center">New arrivals</h1>
           <div className="grid grid-cols-2 mb-5 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:mb-10">
       
 
@@ -137,18 +136,9 @@ export default function Home() {
         
 
       </div>
-      <div>
-        <Image
-        src="/haf.jpg"
-        alt="my-icon"
-        width={500}
-        height={500}
-        className="w-full h-[500px] bg-blue-500  bg-no-repeat min-h-screen cursor-pointer"
+      
         
-        />
-        <h1>here</h1>
         
-        </div>
       
       
       

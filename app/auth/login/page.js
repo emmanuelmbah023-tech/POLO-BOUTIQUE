@@ -4,8 +4,6 @@ import { TextField } from "@mui/material";
 import { AiFillTikTok } from "react-icons/ai";
 import { FcGoogle } from "react-icons/fc";
 
-
-
 export default async function login () {
   const session = await auth()
   console.log(session)
